@@ -1,0 +1,88 @@
+body{   
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+        
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+}
+#logo1998{
+    width: 400px;
+    position: relative;
+    margin: auto;
+}
+#search{
+    width: 800px;
+    height: 90px;
+    background-color:#eeeeee ;
+    margin: auto;
+}
+.form{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+}
+.buttons{
+    padding: 4px 7px;
+    font-weight:600px;
+    position:relative;
+    margin: auto;
+    top:-25%;
+}
+.searchbox {
+    display: grid;
+    grid-template-columns: 0.9fr 0.5fr 1fr;
+    gap: 4px;
+    width: 750px;
+    margin: 3px 0px;
+}
+#box1, #box2, #box3, #box3 form {
+    width: 90%;
+    padding: 8px;
+    height:70px;
+    position: relative;
+    display:grid;
+    text-align: center;
+}
+#box1{
+    background-color: rgb(135, 250, 246);
+    width: 300px;
+}
+#box2{
+    background-color: rgb(127, 255, 225);
+    width: 220px;
+}
+#box3{
+    background-color: rgb(0, 255, 170);
+}
+.Copyright p{
+    text-align: center;
+    font-weight: 500px;
+    font-size: small;
+}
+section div div a {
+    font-size: 0.6rem;
+}
+section div div form {
+    font-size: 0.6rem;
+}
+.getgoogle{
+    width: fit-content;
+    height:fit-content;
+    position: relative;
+    top: -35%;
+    margin: auto;
+}
+#form2{
+    position: relative;
+    top: -25%;
+}
+section div div p{
+    font-size: 0.6rem;
+}
+
