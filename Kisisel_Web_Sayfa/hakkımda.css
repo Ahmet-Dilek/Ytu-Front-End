@@ -1,0 +1,68 @@
+
+.h2bir{
+  text-align: center;
+  background-color: black;  
+  color: white;
+}
+
+
+
+table, tr, td, th{
+    margin-top: 0px;
+    border: 1px solid black; 
+    border-collapse: collapse;
+    margin-left: 350px;
+    font-size: 1.50rem;
+}
+th, td{
+    padding: 5px;
+}
+thead tr{
+    background-color:green ; 
+    color: antiquewhite;
+    text-align: center;
+}
+tbody tr{
+    text-align: left;
+    background-color: azure;
+}
+.one{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.two{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.three{
+    background-color: green;
+    color: white;
+    margin-right: 1200px;
+    text-align: center;
+}
+.three a{
+    color: white;
+
+}
+.three a:hover{
+    font-size: 2rem;
+}
+.four{
+    background-color: green;
+    color: white;
+    margin-right: 900px;
+    margin-left: 300px;
+    margin-top: -78px;
+    text-align: center;
+
+
+}
+.four a{
+    color: white;
+}
+.four a:hover{
+    font-size: 2rem;
+
+}
