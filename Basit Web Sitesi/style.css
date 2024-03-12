@@ -1,0 +1,108 @@
+/*Tüm Sayfayı Etkiler*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navbarın Backgroundı*/
+.container{
+    background: url(bg1.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+/*Navbar Background Ayarları*/
+.container .navbar{
+    height: 80px ;
+    width: 100%;
+    background-color: #007fff ;
+
+}
+/*Navbar Logo Ayarları*/
+.navbar .logo{
+    margin-left: 50px;
+    margin-top: 20px ;
+    display: inline-block;
+}
+.navbar .logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+/*Navbar Ul(Liste) Ayarları*/
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Roboto;
+}
+#hover ul li a:hover{
+background: red;
+border-radius: 10px;
+font-size: 28px;
+}
+/*Center Kısmı Konumlandırma*/
+#hover .center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-family: sans-serif;
+
+    
+}
+/*Center Kısmı Yazı Renk ve Diğer Ayarlar*/
+#hover h1{
+    color: yellow;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+    
+}
+#hover h2{
+    color: yellow;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    width: 880px;
+    margin-top: 20px;
+}
+
+/*Center Kısmı Buton ve Diğer Ayarlar*/
+#hover .center .buttons{
+  margin: 35px 280px;
+}
+#hover button{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    color: black;
+    background-color: yellow;
+    border:blue 3px solid ;
+    border-radius: 10px;
+    
+}
+#hover .bt{
+    padding-left: 15px;
+
+}
+#hover .buttons a{
+    text-decoration: none;
+}
+#hover .buttons button:hover{
+    background-color: white;
+    transition: .5s;
+}
