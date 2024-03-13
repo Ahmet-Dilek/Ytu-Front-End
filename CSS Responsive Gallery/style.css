@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    background-color: cornflowerblue;
+ } 
+ #fb{
+ max-width: 50%;
+ margin: 0 auto;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ background-color: yellow;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ border-radius: 15px;
+ box-shadow: 0 0 10px white;
+ }
+ #fb img{
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    margin-left: 10px;
+    filter: grayscale(1);
+ }
+ .items .sk{
+    height: 220px;
+    width: 330px;
+ }
+ #fb img:hover{
+    filter: grayscale(0);
+    transform: scale(1.2);
+    border: 5px white solid;
+    border-radius: 20px;
+    
+ }
+ .sk1:hover{
+    z-index: 4;
+ }
+ 
+ 
+    
+    
+ 
+ 
+ 
+ 
+
