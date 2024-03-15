@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Information</title>
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="shortcut icon" href="form.png" type="image/x-icon">
+ </head>
+ <body>
+    <div class="ff">
+         <h1>Form Information</h1>
+         <hr>
+         <form action="">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="First Name">
+            <br>
+
+            <label for="sname">Last Name:</label>
+            <input type="text" id="sname" name="sname" placeholder="Last Name">
+            <br>
+
+            <label for="citID">ID:</label>
+            <input type="text" id="citID" name="citID" maxlength="11" minlength="11" placeholder="ID Number" pattern="[0-9]*">
+            <br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="18" max="100" placeholder="Age">
+            <br>
+            
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" placeholder="E-Mail@example">
+            <br>
+
+            <label for="passord">Passord:</label>
+            <input type="password" id="passord" name="passord" placeholder="Passord">
+            <br>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+            <br>
+
+            <p class="gender">Gender:</p><label for="gender">Male</label>
+            <input type="radio" name="gender" value="male">
+            <label for="gender">Female</label>
+            <input type="radio" name="gender" value="female">
+            <label for="gender">Other</label>
+            <input type="radio" name="gender" value="other">
+            <br>
+
+            <label for="file">Add Photo:</label>
+            <input type="file" id="file" name="file">
+            <br>
+
+            <label for="pdil">Programinming Language:</label>
+            <select name="pdil" id="pdil" multiple>
+                <option value="C#" id="C#">C#</option>
+                <option value="PHP" id="PHP">PHP</option>
+                <option value="Java" id="Java">Java</option>
+                <option value="JavaScript" id="JavaScript">JavaScript</option>
+                <option value="Python" id="Python">Python</option>
+            </select>
+            <br>
+
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="20" rows="10" class="message"></textarea>
+            
+            
+            
+
+            <br>
+            <input type="submit" name="Submit" class="button">
+            <input type="reset" name="Reset" class="button button2">
+
+
+
+
+        </form>
+        
+     
+
+    </div>
+    
+ </body>
+ </html>

@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+ }
+ body{
+    background-color: black;
+ }
+ .ff{
+    height: 800px;
+    width: 400px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.ff h1{
+    text-align: center;
+    color: red;
+}
+.ff form label{
+    padding: 5px;
+}
+.ff form input{
+    margin-top: 20px;
+}
+.ff form input:focus{
+    border: 3px solid blue;
+    outline: none;
+    border-radius: 5px;
+}
+.ff form .gender{
+    
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-left: 5px;
+}
+.ff form .message{
+    margin-top: 10px;
+}
+.ff form .button{
+    margin-left: 20px;
+    height: 50px;
+    width: 100px;
+    margin-top: 40px;
+    
+    
+} 
+.ff form .button:hover{
+    background-color: green;
+    height: 80px;
+    width: 120px;
+    z-index: 5px;
+}
+
+.ff form .button2:hover{
+    background-color: red;
+    height: 80px;
+    width: 120px;
+    z-index: 5px;
+}
